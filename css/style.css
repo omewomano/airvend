@@ -1,0 +1,56 @@
+.airvend-logo{
+
+}
+.main-content-div{
+    background-image: url(../assets/map-dots.png);
+    width: 828px;
+    height: 467px;
+}
+
+.top-text1{
+    color: #626ff0;
+    text-align: center;
+    font-size: 350%;
+}
+
+.top-text2{
+    color: #626ff0;
+    text-align: center;
+    font-size: 750%;
+    font-weight: 900;
+}
+.description{
+    text-align: center;
+}
+
+.text3{
+    color: #626ff0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.notify-input{
+    width: 650px !important;
+    height: 45px !important;
+    margin-left: 22%;
+}
+.subscribe-input{
+    color: #fff !important;
+    border-radius: 25px !important;
+    border: solid 1px #eee !important;
+    box-shadow: 0px 0px 20px #999;
+    height: 45px !important;
+}
+.subscribe-button{
+    background-color: #626ff0 !important;
+    color: #fff !important;
+    width: 150px;
+    border-radius: 25px !important;
+    left: -100%;
+    border: solid 1px #626ff0 !important;
+}
+.socialMedia-icons{
+    text-align: center;
+    padding-left: 45%;
+    
+}
