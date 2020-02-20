@@ -7,9 +7,20 @@
     height: 467px;
 }
 
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('AvenirLTStd-Black.otf'); /* IE9 Compat Modes */
+    src: url('AvenirLTStd-Black.otf') format('embedded-opentype'), /* IE6-IE8 */
+         url('AvenirLTStd-Black.otf') format('otf'), /* Super Modern Browsers */
+         url('AvenirLTStd-Black.otf') format('woff'), /* Pretty Modern Browsers */
+         url('AvenirLTStd-Black.otf')  format('truetype'), /* Safari, Android, iOS */
+         url('AvenirLTStd-Black.otf') format('svg'); /* Legacy iOS */
+  }
+
 .top-text1{
     color: #626ff0;
     text-align: center;
+    font-family: MyWebFont;
     font-size: 350%;
 }
 
@@ -18,6 +29,7 @@
     text-align: center;
     font-size: 750%;
     font-weight: 900;
+    font-family: MyWebFont;
 }
 .description{
     text-align: center;
@@ -27,11 +39,12 @@
     color: #626ff0;
     text-align: center;
     font-weight: bold;
+    font-family: MyWebFont;
 }
 
 .notify-input{
     width: 650px !important;
-    height: 45px !important;
+    height: 30px !important;
     margin-left: 22%;
 }
 .subscribe-input{
@@ -39,7 +52,7 @@
     border-radius: 25px !important;
     border: solid 1px #eee !important;
     box-shadow: 0px 0px 20px #999;
-    height: 45px !important;
+    height: 40px !important;
 }
 .subscribe-button{
     background-color: #626ff0 !important;
@@ -48,6 +61,7 @@
     border-radius: 25px !important;
     left: -100%;
     border: solid 1px #626ff0 !important;
+    height: 40px !important;
 }
 .socialMedia-icons{
     text-align: center;
