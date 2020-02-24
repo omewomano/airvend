@@ -1,21 +1,14 @@
-.airvend-logo{
 
-}
 .main-content-div{
     background-image: url(../assets/map-dots.png);
     width: 828px;
     height: 467px;
 }
+.logo-holder {
+    padding-top:5% !important;
+    margin: 0px;
+}
 
-@font-face {
-    font-family: 'MyWebFont';
-    src: url('AvenirLTStd-Black.otf'); /* IE9 Compat Modes */
-    src: url('AvenirLTStd-Black.otf') format('embedded-opentype'), /* IE6-IE8 */
-         url('AvenirLTStd-Black.otf') format('otf'), /* Super Modern Browsers */
-         url('AvenirLTStd-Black.otf') format('woff'), /* Pretty Modern Browsers */
-         url('AvenirLTStd-Black.otf')  format('truetype'), /* Safari, Android, iOS */
-         url('AvenirLTStd-Black.otf') format('svg'); /* Legacy iOS */
-  }
 
 .top-text1{
     color: #626ff0;
